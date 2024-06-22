@@ -1,7 +1,10 @@
 import React from 'react';
+import Simpletodo from './Simpletodo';
+// import Timer from './Timer';
 // import List from './List';
 // import Inc from './Incdecryment';
-import ToggleSwitch from './toggleswitch';
+// import ToggleSwitch from './toggleswitch';
+// import FetchAPI from './FetchAPI';
 
 export default function App() {
   return (
@@ -10,7 +13,10 @@ export default function App() {
       {/* <Inc/> */}
       {/* <Form/> */}
       {/* <List/> */}
-      <ToggleSwitch/>
+      {/* <ToggleSwitch/> */}
+      {/* <FetchAPI/> */}
+      {/* <Timer/> */}
+      <Simpletodo/>
     </div>
   )
 }
