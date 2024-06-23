@@ -1,5 +1,5 @@
 import React from 'react';
-import Fileuploader from './Fileuploader';
+// import Fileuploader from './Fileuploader';
 // import Routing from './Routing';
 // import Randomquote from './Randomquote';
 // import Changebg from './Changebg';
@@ -24,7 +24,7 @@ export default function App() {
       {/* <Changebg/> */}
       {/* <Routing/> */}
       {/* <Randomquote/> */}
-      <Fileuploader/>
+      {/* <Fileuploader/> */}
     </div>
   )
 }
