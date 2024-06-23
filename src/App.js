@@ -1,5 +1,9 @@
 import React from 'react';
-import Simpletodo from './Simpletodo';
+import Fileuploader from './Fileuploader';
+// import Routing from './Routing';
+// import Randomquote from './Randomquote';
+// import Changebg from './Changebg';
+// import Simpletodo from './Simpletodo';
 // import Timer from './Timer';
 // import List from './List';
 // import Inc from './Incdecryment';
@@ -16,7 +20,11 @@ export default function App() {
       {/* <ToggleSwitch/> */}
       {/* <FetchAPI/> */}
       {/* <Timer/> */}
-      <Simpletodo/>
+      {/* <Simpletodo/> */}
+      {/* <Changebg/> */}
+      {/* <Routing/> */}
+      {/* <Randomquote/> */}
+      <Fileuploader/>
     </div>
   )
 }
