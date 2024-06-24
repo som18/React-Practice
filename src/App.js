@@ -1,4 +1,6 @@
 import React from 'react';
+// import Weatherapp from './Weatherapp';
+// import Login from './Login';
 // import Fileuploader from './Fileuploader';
 // import Routing from './Routing';
 // import Randomquote from './Randomquote';
@@ -25,6 +27,8 @@ export default function App() {
       {/* <Routing/> */}
       {/* <Randomquote/> */}
       {/* <Fileuploader/> */}
+      {/* <Login/> */}
+      {/* <Weatherapp/> */}
     </div>
   )
 }
