@@ -1,4 +1,6 @@
 import React from 'react';
+import Pagination from './Pagination';
+// import Search from './Search';
 // import Weatherapp from './Weatherapp';
 // import Login from './Login';
 // import Fileuploader from './Fileuploader';
@@ -13,6 +15,8 @@ import React from 'react';
 // import FetchAPI from './FetchAPI';
 
 export default function App() {
+
+  const items = ['item 1','item 2','item 3','item 4','item 5','item 6'];
   return (
     <div>
       {/* <One /> */}
@@ -29,6 +33,8 @@ export default function App() {
       {/* <Fileuploader/> */}
       {/* <Login/> */}
       {/* <Weatherapp/> */}
+      {/* <Search items={items}/> */}
+      <Pagination items ={items} itemsPerPage={2}/>
     </div>
   )
 }
