@@ -1,4 +1,6 @@
 import React from 'react';
+import Hamburger from './Hamburger';
+// import Colorpicker from './Colorpicker';
 // import Pagination from './Pagination';
 // import Search from './Search';
 // import Weatherapp from './Weatherapp';
@@ -35,6 +37,8 @@ export default function App() {
       {/* <Weatherapp/> */}
       {/* <Search items={items}/> */}
       {/* <Pagination items ={items} itemsPerPage={2}/> */}
+      {/* <Colorpicker/> */}
+      <Hamburger/>
     </div>
   )
 }
