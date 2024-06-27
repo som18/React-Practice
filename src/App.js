@@ -1,5 +1,8 @@
 import React from 'react';
-import Hamburger from './Hamburger';
+import LightDark from './LightDark';
+import LightDarkComp from './LightDarkComp';
+import { ThemeProvider } from './ThemeContext';
+// import Hamburger from './Hamburger';
 // import Colorpicker from './Colorpicker';
 // import Pagination from './Pagination';
 // import Search from './Search';
@@ -38,7 +41,16 @@ export default function App() {
       {/* <Search items={items}/> */}
       {/* <Pagination items ={items} itemsPerPage={2}/> */}
       {/* <Colorpicker/> */}
-      <Hamburger/>
+      {/* <Hamburger/> */}
+      <ThemeProvider>
+        <div className='App'>
+        <LightDark/>
+        <LightDarkComp/>
+
+        </div>
+      
+      </ThemeProvider>
+      
     </div>
   )
 }
