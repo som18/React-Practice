@@ -1,5 +1,7 @@
 import React from 'react';
-import TodolistReducer from './TodolistReducer';
+// import TodolistReducer from './TodolistReducer';
+import './styles/otp.css';
+import Otp from './Otp';
 // import Counter from './Counter';
 // import LightDark from './LightDark';
 // import LightDarkComp from './LightDarkComp';
@@ -51,7 +53,8 @@ export default function App() {
         </div>
       </ThemeProvider> */}
       {/* <Counter/> */}
-      <TodolistReducer/>
+      {/* <TodolistReducer/> */}
+      <Otp/>
       
     </div>
   )
