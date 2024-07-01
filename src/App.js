@@ -1,5 +1,6 @@
 import React from 'react';
-import Counter from './Counter';
+import TodolistReducer from './TodolistReducer';
+// import Counter from './Counter';
 // import LightDark from './LightDark';
 // import LightDarkComp from './LightDarkComp';
 // import { ThemeProvider } from './ThemeContext';
@@ -49,7 +50,8 @@ export default function App() {
         <LightDarkComp/>
         </div>
       </ThemeProvider> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <TodolistReducer/>
       
     </div>
   )
